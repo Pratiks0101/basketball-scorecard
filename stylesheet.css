@@ -1,0 +1,80 @@
+body {
+    margin: 0;
+    background-color: #1B244A;
+}
+
+#title {
+    text-align: center;
+    color: #fefefe;
+    margin: 40px;
+}
+
+#container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #333333;
+    color: #ffffff;
+    padding: 20px;
+    border-radius: 10px;
+    max-width: 900px;
+    width: 90%;
+    margin: 50px auto;
+
+}
+
+#scoreCardContainer {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    margin-bottom: 30px;
+}
+
+.team-score {
+    text-align: center;
+    margin: 10px;
+    }
+
+.team-score h2 {
+    font-size: 30px;
+    margin-bottom: 10px;
+    }
+
+.team-score .score {
+    font-family: "Share Tech Mono", monospace;
+    font-optical-sizing: auto;
+    font-style: normal;
+    font-size: 60px;
+    font-weight: bold;
+    border: 5px solid #000000;
+    background-color: aquamarine;
+    color: #ff0000;
+    border-radius: 5px;
+    }
+
+#reset-el {
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 700;
+    font-size: larger;
+    margin: 10px 20px;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+#reset-el:hover {
+    background-color: red;
+    border-radius: 10px;
+}
+
+button {
+    font-size: medium;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin: 20px auto;
+    padding: auto;
+}
+
+#resetContainer {
+    width: 100%;
+    text-align: center;
+    margin-top: 20px;
+}

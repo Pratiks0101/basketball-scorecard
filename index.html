@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Share+Tech+Mono&display=swap" rel="stylesheet">
+    <title>Basketball Scorecard</title>
+    <link rel="stylesheet" href="stylesheet.css">
+</head>
+<body>
+    <h1 id="title">BASKETBALL  SCORECARD</h1>
+    <div id="container">
+        <div id="scoreCardContainer">
+            <div class="team-score">
+                <h2>Home</h2>
+                <h1 id="home-score" class="score">0</h1>
+                <button onclick="plusScoreOne()">+1</button>
+                <button onclick="plusScoreTwo()">+2</button>
+                <button onclick="plusScoreThree()">+3</button>
+            </div>
+            <div class="team-score">
+                <h2>Guest</h2>
+                <h1 id="guest-score" class="score">0</h1>
+                <button onclick="plusOne()">+1</button>
+                <button onclick="plusTwo()">+2</button>
+                <button onclick="plusThree()">+3</button>
+            </div>
+        </div>
+        <div id="resetContainer">
+            <button id="reset-el" onclick="resetScore()">Reset Score</button>
+        </div>
+    </div>
+    <script src="index.js"></script>
+</body>
+</html>
